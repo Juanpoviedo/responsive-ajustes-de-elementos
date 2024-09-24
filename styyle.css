@@ -14,8 +14,8 @@ html, body{
     gap:20px;
     padding: 20px 80px;
     border-radius: 16px;
+    flex-wrap: wrap;
     
-
 }
 
 .item{
@@ -26,5 +26,6 @@ html, body{
     display: flex;
     justify-content: center;
     align-items: center;
-
+    min-width: 350px;
+    
 }
